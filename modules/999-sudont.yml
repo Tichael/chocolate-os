@@ -1,0 +1,4 @@
+name: sudont
+type: shell
+commands:
+  - SUDO_FORCE_REMOVE=yes apt purge -y sudo
