@@ -37,10 +37,10 @@ modules:
 
   - name: vso-deps-install
     type: apt
-    source:
-      packages:
-        - dpkg-dev
-        - ifstat
+    sources:
+      - packages:
+          - dpkg-dev
+          - ifstat
 
   - name: enable-systemd-unit
     type: shell
