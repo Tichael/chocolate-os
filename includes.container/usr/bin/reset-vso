@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Are you sure you want to reset the VSO? This will remove all your installed software in the subsystem. [y/N]"
+read -r answer
+if [ "$answer" == "y" ]; then
+    podman rm -f apx-vso-pico
+fi
